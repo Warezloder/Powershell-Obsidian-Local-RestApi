@@ -50,7 +50,7 @@ Get-Module -Name ObsidianLocalRestApi -ListAvailable
 ### Import Directly (no install required)
 
 ```powershell
-Import-Module '.\output\ObsidianLocalRestApi'
+Import-Module '.\ObsidianLocalRestApi'
 ```
 
 ## Quick Start
