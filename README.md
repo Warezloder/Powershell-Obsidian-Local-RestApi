@@ -30,6 +30,7 @@ PowerShell module for the [Obsidian Local REST API](https://github.com/coddingto
 ### From PowerShell Gallery (when published)
 
 ```powershell
+# Issues with accessing PowershellGallery User Account at this moment. I will Publish soon...
 Install-Module -Name ObsidianLocalRestApi -Scope CurrentUser
 ```
 
