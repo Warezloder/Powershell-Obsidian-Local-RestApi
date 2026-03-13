@@ -41,7 +41,7 @@ Install-Module -Name ObsidianLocalRestApi -Scope CurrentUser
 $modulesRoot = ($env:PSModulePath -split [IO.Path]::PathSeparator)[0]
 $destination = Join-Path -Path $modulesRoot -ChildPath 'ObsidianLocalRestApi'
 
-Copy-Item -Path '.\output\ObsidianLocalRestApi' -Destination $destination -Recurse
+Copy-Item -Path '.\ObsidianLocalRestApi' -Destination $destination -Recurse
 
 # Verify
 Get-Module -Name ObsidianLocalRestApi -ListAvailable
