@@ -1,16 +1,16 @@
 # ObsidianLocalRestApi
 
-PowerShell module for the [Obsidian Local REST API](https://github.com/coddingtonbear/obsidian-local-rest-api) plugin. Wraps every REST endpoint with proper authentication, self-signed certificate handling, and consistent error reporting — so you can automate your Obsidian vault from any PowerShell script or pipeline.
+PowerShell module for the [Obsidian Local REST API](https://github.com/coddingtonbear/obsidian-local-rest-api) plugin. Wraps every REST endpoint with proper authentication, self-signed certificate handling, and consistent error reporting. You can automate your Obsidian vault from any PowerShell script or pipeline.
 
 ## Features
 
-- Single connection command stores credentials for the session — no token plumbing in every call
+- Single connection command stores credentials for the session, no token plumbing in every call
 - Full coverage: System, Commands, Active File, Vault Files, Vault Directories, Periodic Notes, Search, and Open endpoints
 - Three response formats for file reads: raw Markdown, structured JSON (with frontmatter, tags, stat), and DocumentMap (headings and blocks)
-- Surgical PATCH operations — append, prepend, or replace content at a specific heading, block reference, or frontmatter field
+- Surgical PATCH operations. Append, prepend, or replace content at a specific heading, block reference, or frontmatter field
 - ShouldProcess / -WhatIf / -Confirm support on all destructive and write commands
 - Self-signed certificate bypass enabled automatically for localhost connections
-- Windows backslash paths accepted everywhere — normalized to forward slashes internally
+- Windows backslash paths accepted everywhere. Normalized to forward slashes internally
 
 ## Requirements
 
